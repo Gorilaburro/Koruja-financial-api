@@ -1,3 +1,10 @@
+
+<p align="center">
+  <img src="logo.svg" alt="Koruja Logo" width="160" height="160">
+</p>
+
+
+
 # 🦉 Koruja - Financial API & Rate Limiting Middleware
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)

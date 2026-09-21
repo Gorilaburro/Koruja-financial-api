@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fundo Circular Tech -->
+  <circle cx="100" cy="100" r="90" fill="#0F172A" stroke="#38BDF8" stroke-width="4"/>
+  
+  <!-- Símbolo de Conexão/Rede ao fundo -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#1E293B" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Sobrancelhas Marcantes (Característica da Coruja-Buraqueira) -->
+  <path d="M 50 65 Q 80 55 95 80" stroke="#F59E0B" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 150 65 Q 120 55 105 80" stroke="#F59E0B" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Olhos Amarelos Grandes -->
+  <circle cx="75" cy="95" r="22" fill="#FBBF24"/>
+  <circle cx="125" cy="95" r="22" fill="#FBBF24"/>
+
+  <!-- Pupilas Tech (Ajustadas para o centro) -->
+  <circle cx="75" cy="95" r="10" fill="#0F172A"/>
+  <circle cx="125" cy="95" r="10" fill="#0F172A"/>
+  <circle cx="78" cy="92" r="3" fill="#FFFFFF"/>
+  <circle cx="128" cy="92" r="3" fill="#FFFFFF"/>
+
+  <!-- Bico Curvo -->
+  <polygon points="100,105 92,120 108,120" fill="#D97706"/>
+
+  <!-- Detalhes de Plumagem Buraqueira (Tons de Castanho/Bege) -->
+  <path d="M 70 135 Q 100 145 130 135" stroke="#78350F" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 80 148 Q 100 155 120 148" stroke="#78350F" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
