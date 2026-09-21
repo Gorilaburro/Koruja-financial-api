@@ -19,16 +19,16 @@ O projeto foi construído para simular problemas reais de arquitetura de alta es
 
 ##  Principais Funcionalidades
 
-- **Limitação Dinâmica por Cliente:** Identificação de tráfego por IP (utilizadores anónimos) e por `X-API-Key` (utilizadores autenticados).
+- **Limitação Dinâmica por Cliente:** Identificação de tráfego por IP (utilizadores anônimos) e por `X-API-Key` (utilizadores autenticados).
 - **Tratamento de Limites Distintos:**
-  - **Anónimos:** 5 requisições por minuto.
+  - **Anônimos:** 5 requisições por minuto.
   - **Autenticados:** 20 requisições por minuto.
 - **Cabeçalhos HTTP Informativos:** A API retorna metadados padrão da indústria em cada resposta:
   - `X-RateLimit-Limit`: Limite máximo da janela atual.
   - `X-RateLimit-Remaining`: Requisições restantes na janela.
   - `X-RateLimit-Reset-Seconds`: Tempo restante até o reset da cota.
 - **Tratamento de Erros Padronizado:** Resposta `HTTP 429 Too Many Requests` estruturada quando o limite é excedido.
-- **Resiliência:** Armazenamento em memória atómico para contagem de tráfego e cálculo de TTL (Time-To-Live).
+- **Resiliência:** Armazenamento em memória atômico para contagem de tráfego e cálculo de TTL (Time-To-Live).
 
 ---
 
