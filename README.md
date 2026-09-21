@@ -62,10 +62,10 @@ source venv/bin/activate
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 
-# instalar dependencias
+# Instalar dependências
 pip install -r requirements.txt
 
-# iniciar servidor da API
+# Iniciar servidor da API
 uvicorn Koruja:app --reload
 
-# Aceda a http://localhost:8000/docs no seu navegador para testar as rotas da API em tempo real.
+# Acesse a http://localhost:8000/docs no seu navegador para testar as rotas da API em tempo real.
