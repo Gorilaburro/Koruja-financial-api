@@ -5,19 +5,19 @@
 
 
 
-# 🦉 Koruja - Financial API & Rate Limiting Middleware
+#  Koruja - Financial API & Rate Limiting Middleware
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-O **Koruja** é uma API de serviços financeiros desenvolvida com FastAPI que inclui uma camada personalizada de **Middleware de Rate Limiting** (Limitação de Taxas) em tempo real, utilizando armazenamento em memória compatível com **Redis**.
+O **Koruja** é uma API de serviços financeiros desenvolvida com FastAPI que inclui uma camada personalizada de Middleware de Rate Limiting (Limitação de Taxas) em tempo real, utilizando armazenamento em memória compatível com Redis.
 
 O projeto foi construído para simular problemas reais de arquitetura de alta escala, protegendo infraestruturas contra abuso de requisições, ataques de negação de serviço (DoS) e garantindo a justa distribuição de recursos da API.
 
 ---
 
-## 🎯 Principais Funcionalidades
+##  Principais Funcionalidades
 
 - **Limitação Dinâmica por Cliente:** Identificação de tráfego por IP (utilizadores anónimos) e por `X-API-Key` (utilizadores autenticados).
 - **Tratamento de Limites Distintos:**
@@ -32,7 +32,7 @@ O projeto foi construído para simular problemas reais de arquitetura de alta es
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Linguagem:** Python 3
 - **Framework Web:** FastAPI
@@ -41,7 +41,7 @@ O projeto foi construído para simular problemas reais de arquitetura de alta es
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+##  Como Executar o Projeto Localmente
 
 ### Pré-requisitos
 - Python 3.10 ou superior instalado.
